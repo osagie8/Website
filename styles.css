@@ -49,6 +49,45 @@ h1{
     color: #EAEAEA;
     
 }
+
+.undernameleft{
+    position: absolute;
+    width: 207px;
+    height: 43px;
+    left: 40px;
+    top: 350px;
+    
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 43px;
+    /* identical to box height */
+    
+    
+    color: #EAEAEA;
+    
+}
+.undernameright{
+    position: absolute;
+    width: 207px;
+    height: 43px;
+    left: 200px;
+    top: 350px;
+    
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 43px;
+    /* identical to box height */
+    
+    
+    color: #EAEAEA;
+    
+}
+
+
 .namedesc{
     position: absolute;
     width: 111px;
