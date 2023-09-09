@@ -1,3 +1,93 @@
-body {
-	background-color: blueviolet;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    color: wheat;
+}
+.container1{
+    position: relative;
+    width: 390px;
+    height: 844px;
+
+    background: #181818;
+}
+
+.blob1{
+    position: absolute;
+    left: -4;
+    right: 50.77%;
+    top: 60%;
+    bottom: 0.71%;
+    
+}
+.blob2{
+    position: absolute;
+    left: 40.51%;
+    right: -51.03%;
+    top: -8.89%;
+    bottom: 59.12%;
+    
+}
+.name{
+    position: absolute;
+    width: 207px;
+    height: 43px;
+    left: 91px;
+    top: 273px;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height */
+    
+    
+    color: #EAEAEA;
+    
+}
+.namedesc{
+    position: absolute;
+    width: 111px;
+    height: 19px;
+    left: 181px;
+    top: 312px;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #EAEAEA;
+    
+}
+
+.container2{
+    position: relative;
+width: 390px;
+height: 1205px;
+
+background: #181818;
+}
+
+.container3{
+    position: relative;
+    width: 390px;
+    height: 844px;
+
+    background: #181818;
+}
+
+.container4{
+    position: relative;
+    width: 390px;
+    height: 844px;
+
+    background: #181818;
 }
