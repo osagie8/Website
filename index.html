@@ -22,10 +22,10 @@
                 <div class="project">
                     <h3>TCP CHAT Application</h3>
                     <p>This project is a TCP-based chat application for real-time communication between multiple clients connected to a central/main server. It offers a command-line interface alongside a graphical user interface (GUI), supports private and broadcast messaging, file sharing, and seamless reconnection for disconnected clients.</p>
-                    <img src="/tcp-image.png" alt="Description of image"  width="550" height="350">
+                    <img src="/tcp-image.png" alt="Description of image"  width="350" height="150">
                     <h3>Help Desk Configuration</h3>
                     <p>Succuesfully completed the prerequisites and installation of the open-source help desk ticketing system osTicket.</p>
-                    <img src="/osticket image.png" alt="Description of image"  width="550" height="350">
+                    <img src="/osticket image.png" alt="Description of image"  width="350" height="100">
 
 
                 </div>
@@ -34,11 +34,39 @@
         </section>
         <section id="about">
             <h2>About</h2>
-            <p>Write a short paragraph about yourself here.</p>
+            <p>Computer Science graduate looking to advance my career in Information Technology.</p>
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <p>Include your contact details here.</p>
+            <p><a href="https://www.linkedin.com/in/osagieowie/">Visit My LinkedIn</a></p>
+            <p><a href="https://www.github.com/osagie8/">Visit My GitHub</a></p>
+            <p><a href="mailto:osagieowie99@gmail.com">Osagieowie99@gmail.com</a></p>
+            <button id="downloadButton">Download my Resume/CV</button>
+
+<script>
+  const downloadButton = document.getElementById('downloadButton');
+  downloadButton.addEventListener('click', () => {
+    const link = document.createElement('a');
+    link.href = 'Osagie Owie Resume (2024).pdf';
+    link.download = 'Osagie Owie Resume (2024).pdf'; // Set the filename
+    link.style.display = 'none'; // Hide the link element
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+</script>
+
+<style>
+  #downloadButton {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
+
         </section>
     </main>
     <footer>
