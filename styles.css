@@ -75,3 +75,22 @@ footer {
         margin: 0 0.5em;
     }
 }
+
+.github-button {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.github-button:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
